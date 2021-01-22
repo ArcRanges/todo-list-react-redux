@@ -3,7 +3,7 @@ A simple Todo-List React app that features Redux, Reselect, Thunks, Tests (Mocha
 
 ## Instructions
 
-*Please make sure server is running before you run the app.*
+*Please make sure [server](https://github.com/ArcRanges/todo-list-server) is running before you run the app.*
 ```
 git clone <this repo>
 cd todo-list-react-redux
