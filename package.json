@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "npx webpack-dev-server --mode development",
-    "build": "npx webpack --mode development",
-    "test": "mocha \"src/**/*.test.js\" --require @babel/register --recursive"
+    "build": "npx webpack --mode production",
+    "test": "mocha \"src/**/*.test.js\" --require @babel/register --recursive",
   },
   "keywords": [],
   "author": "",
@@ -22,6 +22,7 @@
     "chai": "^4.2.0",
     "css-loader": "^5.0.1",
     "fetch-mock": "^9.11.0",
+    "html-webpack-plugin": "^4.5.1",
     "mocha": "^8.2.1",
     "node-fetch": "^2.6.1",
     "react-hot-loader": "^4.13.0",
