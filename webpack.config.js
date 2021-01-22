@@ -27,6 +27,7 @@ module.exports = {
     },
     devServer: {
         contentBase: './build',
+        port: 3000
     },
     plugins: [
         new webpack.HotModuleReplacementPlugin(),
